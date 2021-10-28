@@ -1,0 +1,114 @@
+nav{
+    display:block;
+}
+
+.vertical-menu{
+    width : 264px;
+}
+
+.vertical-menu a{
+    background-color:gray;
+    border: 1px solid maroon;
+    display: block;
+    block-size:20mm;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    grid-area: menu;
+    /* width: 264px; */
+    height: 67px;
+    font-size: 36px;
+    /* align-items: center; */
+    text-align: center;
+    /* line-height: 42px; */
+}
+
+.vertical-menu a:hover{
+    background-color: #ccc;
+}
+
+.vertical-menu a.active{
+    background-color:maroon;
+    color: whitesmoke;
+}
+
+
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 264px auto;
+}
+
+.grid-container > div {
+    /* grid background colour */
+    background-color: white;
+    /* text-align: center; */
+    padding: 20px 0;
+    /* font-size: 30px; */
+  }
+  
+form{
+    /* grid-area: footer; */
+    font-size: 24px;
+    text-align: left;
+}
+
+.content{
+    /* grid-area: footer; */
+    
+    margin: auto;
+    text-align: center;
+}
+.button{
+    border: 1px;
+    border-radius: 25px;
+    width: 215px;
+    height: 48px;
+    /* font-family: Jura; */
+    font-style: normal;
+    font-weight:bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.card{
+    width: 588px;
+    height: 500px;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 ;
+
+    line-height: 50px;
+    /* transition: 0.3s; */
+}
+
+Header, Footer{
+    background-color:grey; 
+    font-size:30px; 
+    text-align:center;
+    padding: 10px 20px;
+}
+
+#users{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border-collapse: collapse;
+    width: 588px;
+  }
+  
+#users td, #users th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#users tr:nth-child(even){background-color: #f2f2f2;}
+
+#users tr:hover {background-color: #ddd;}
+
+#users th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: maroon;
+color: white;
+}
