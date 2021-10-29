@@ -8,14 +8,15 @@
         </div>
         <div class="content">
             <h1>Blood Receive request Form</h1>
-            <div class="card">
+            <div class="form_card">
+            <img src="images/receive.jpg"/>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name">
                 <br>
                 
                 <label for="age">Age:</label>
-                <input type="number" id="age" min="18" max="100" value="18" >
+                <input type="number" id="age">
                 <br>
 
                 <label for="contact">Contact no:</label>
@@ -24,9 +25,14 @@
 
                 <label for="blood_groups"> Blood Group: </label>
                 <select id="blood_groups">
-                    <option> A </option>
-                    <option> B </option>
-                    <option> AB </option>
+                    <option> A+ </option>
+                    <option> A- </option>
+                    <option> B+ </option>
+                    <option> B- </option>
+                    <option> AB+ </option>
+                    <option> AB- </option>
+                    <option> O+ </option>
+                    <option> O- </option>
                 </select>
                 <br>
 

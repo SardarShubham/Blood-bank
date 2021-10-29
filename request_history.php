@@ -2,9 +2,9 @@
 
     <div class="grid-container">
         <div class = "vertical-menu">
-            <a href = "donate_page.php" class="active">Donate</a>
+            <a href = "donate_page.php">Donate</a>
             <a href = "receive_page.php">Receive</a>
-            <a href = "request_history.php">Request History</a>
+            <a href = "request_history.php" class="active">Request History</a>
         </div>
         <div class="content">
             <h1>Request History</h1>

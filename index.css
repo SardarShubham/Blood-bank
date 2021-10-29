@@ -1,14 +1,26 @@
-nav{
-    display:block;
+.about_heading{
+    background-image: url(images/about_bg.jpg);
+    background-size: cover;
+    color:white;
+    height:280px;
+    font-weight: bold;
+    margin: auto;
+    text-align-last:center;
+    font-size: 100px;
 }
 
+.about_img{
+    height:400px;
+    width:auto; 
+    margin:auto;
+}
 .vertical-menu{
     width : 264px;
 }
 
 .vertical-menu a{
     background-color:gray;
-    border: 1px solid maroon;
+    border: 1px solid rgb(197, 18, 18);
     display: block;
     block-size:20mm;
     text-decoration: none;
@@ -28,7 +40,7 @@ nav{
 }
 
 .vertical-menu a.active{
-    background-color:maroon;
+    background-color:rgb(197, 18, 18);
     color: whitesmoke;
 }
 
@@ -36,7 +48,8 @@ nav{
 
 .grid-container{
     display:grid;
-    grid-template-columns: 264px auto;
+    /* grid-template-columns: 264px auto; */
+    grid-template-columns:auto auto auto  ;
 }
 
 .grid-container > div {
@@ -48,46 +61,58 @@ nav{
   }
   
 form{
-    /* grid-area: footer; */
     font-size: 24px;
     text-align: left;
 }
 
 .content{
-    /* grid-area: footer; */
-    
     margin: auto;
     text-align: center;
 }
-.button{
+
+body{
+    margin:0;
+}
+
+/* .button{
     border: 1px;
     border-radius: 25px;
     width: 215px;
     height: 48px;
     /* font-family: Jura; */
-    font-style: normal;
+    /* font-style: normal;
     font-weight:bold;
     font-size: 36px;
     line-height: 43px;
-    text-align: center;
-}
+    text-align: center; */
+/* } */
 
-.card{
-    width: 588px;
+.form_card{
+    background-color:lightgray;
+    width: 688px;
     height: 500px;
-    padding: 25px 50px;
+    /* padding: 25px 50px; */
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 ;
-
+    display: grid;
+    grid-template-columns: auto auto;
     line-height: 50px;
+    margin:10px;
     /* transition: 0.3s; */
 }
 
-Header, Footer{
+/* Header, Footer{
     background-color:grey; 
     font-size:30px; 
     text-align:center;
+    padding:0px 0px;
     padding: 10px 20px;
+    margin: 0 auto;
+} */
+
+.img{
+    align-content: right;
+    
 }
 
 #users{
@@ -109,6 +134,6 @@ padding: 8px;
 padding-top: 12px;
 padding-bottom: 12px;
 text-align: left;
-background-color: maroon;
+background-color: rgb(197, 18, 18);
 color: white;
 }

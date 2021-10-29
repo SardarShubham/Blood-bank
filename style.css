@@ -18,6 +18,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 70px;
+    border-bottom: solid;
+    border-color: #ddd;
     background: white;
 }
 
@@ -67,7 +69,7 @@ header{
 }
 
 .main-body{
-  background-image: url(bg.jpg);
+  background-image: url(images/bg.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -109,13 +111,14 @@ header{
   padding: 25px 0;
 }
 
-.our-services h1{
+h1{
   text-align: center;
   color: rgb(197, 18, 18);
   text-decoration: underline;
   font-weight: bolder;
   font-size: 30px;
   padding: 25px 0;
+  
 }
 
 .column {
@@ -172,6 +175,11 @@ header{
   margin: 10px 10px;
   cursor: pointer;
   position:relative;
+}
+
+.button:hover{
+  background-color:rgb(197, 18, 18);
+  color: white;
 }
 
 .req
